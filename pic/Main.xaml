@@ -1,0 +1,91 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,610.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.Core.Activities.SAP</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Mail.Activities.Business.HtmlEditor</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Mail.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="496,267.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <umab:CreateHtmlContent DisplayName="Create HTML Content" sap:VirtualizedContainerService.HintSize="433.6000000000001,155.2" HtmlContent="[&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;!-- saved From url=(0057)file:///D:/Working%20Files/Website%20Project/brewing.html --&gt;&#xD;&#xA;&lt;html&gt;&lt;head&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&#xD;&#xA;&#xD;&#xA;&lt;title&gt;Coffee Brewing&lt;/title&gt;&#xD;&#xA;&#xD;&#xA;&lt;/head&gt;&#xD;&#xA;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;&#xD;&#xA;&lt;h1&gt;Making Coffee&lt;/h1&gt;&#xD;&#xA;&#xD;&#xA;&lt;h2&gt;Brewing&lt;/h2&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;In percolation, the water passes through the coffee grounds, gaining soluble compounds To form coffee. Insoluble compounds remain within the coffee filter.&#xD;&#xA;Coffee can be brewed In several different ways, but these methods fall Into four main groups depending On how the water Is introduced To the coffee grounds: decoction (through boiling), infusion (through steeping), gravitational feed (used With percolators And In drip brewing), Or pressurized percolation (As With espresso).&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;Brewed coffee, If kept hot, will deteriorate rapidly In flavor, And reheating such coffee tends To give it a &quot;muddy&quot; flavour, As some compounds that impart flavor To coffee are destroyed If this Is done. Even at room temperature, deterioration will occur; however, If kept In an oxygen-free environment it can last almost indefinitely at room temperature, And sealed containers Of brewed coffee are sometimes commercially available In food stores In America Or Europe, With refrigerated bottled coffee drinks being commonly available at convenience stores And grocery stores In the United States. Canned coffee Is particularly popular In Japan And South Korea.&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;There are many popular ways To brew coffee:&lt;/p&gt;&#xD;&#xA;&lt;ul&gt;&#xD;&#xA;&lt;li&gt;Boiling&lt;/li&gt;&#xD;&#xA;&lt;li&gt;Steeping&lt;/li&gt;&#xD;&#xA;&lt;li&gt;Filtration Methods&lt;/li&gt;&#xD;&#xA;&lt;li&gt;Pressure&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;&#xD;&#xA;&lt;section&gt;&#xD;&#xA;&lt;h1&gt;Boiling&lt;/h1&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;Boiling, Or decoction, was the main method used For brewing coffee Until the 1930s And Is still used In some Nordic And Middle Eastern countries. The aromatic oils In coffee are released at 96 °C (205 °F), which Is just below boiling, While the bitter acids are released When the water has reached boiling point.&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;The simplest method Is To put the ground coffee In a cup, pour hot water over it And Let cool While the grounds sink To the bottom. This Is a traditional method For making a cup Of coffee that Is still used In parts Of Indonesia. This method, known As &quot;mud coffee&quot; In the Middle East owing To an extremely fine grind that results In a mud-Like sludge at the bottom Of the cup, allows For extremely simple preparation, but drinkers Then have To be careful If they want To avoid drinking grounds either From this layer Or floating at the surface Of the coffee, which can be avoided By dribbling cold water onto the &quot;floaters&quot; From the back Of a spoon. If the coffee beans are Not ground finely enough, the grounds Do Not sink.&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;&quot;Cowboy coffee&quot; Is made By heating coarse grounds With water In a pot, letting the grounds settle And pouring off the liquid To drink, sometimes filtering it To remove fine grounds. While the name suggests that this method was used By cowboys, presumably On the trail around a campfire, it Is used By others; some people prefer this method.&#xD;&#xA;&#xD;&#xA;The above methods are sometimes used With hot milk instead Of water.&#xD;&#xA;&#xD;&#xA;Turkish coffee (aka Arabic coffee, etc.), a very early method Of making coffee, Is used In the Middle East, North Africa, East Africa, Turkey, Greece, the Balkans, And Russia. Very finely ground coffee, optionally sugar, And water are placed In a narrow-topped pot, called an cezve (Turkish), kanaka (Egyptian), briki (Greek), džezva (Štokavian) Or turka (Russian) And brought To the boil Then immediately removed From the heat. It may be very briefly brought To the boil two Or three times. Turkish coffee Is sometimes flavored With cardamom, particularly In Arab countries. The resulting strong coffee, With foam On the top And a thick layer Of grounds at the bottom, Is drunk From small cups.&lt;/p&gt;&#xD;&#xA;&lt;/section&gt;&#xD;&#xA;&lt;section&gt;&#xD;&#xA;&lt;h1&gt;Steeping&lt;/h1&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;A cafetière, Or French press, Is a tall, narrow cylinder With a plunger that includes a metal Or nylon fine mesh filter. The grounds are placed In the cylinder, And off-the- boil water Is Then poured Into it. The coffee And hot water are left In the cylinder For a few minutes (typically 4–7 minutes) And Then the plunger Is gently pushed down, leaving the filter immediately above the grounds, allowing the coffee To be poured Out While the filter retains the grounds. Depending On the type Of filter, it Is important To pay attention To the grind Of the coffee beans, though a rather coarse grind Is almost always called For.&#xD;&#xA;&#xD;&#xA;Malaysian And some Caribbean And South American styles Of coffee are often brewed Using a &quot;sock,&quot; which Is actually a simple muslin bag, shaped Like a filter, Into which coffee Is loaded, Then steeped In hot water. This method Is especially suitable For use With local-brew coffees In Malaysia, primarily Of the varieties Robusta And Liberica which are often strong-flavored, allowing the ground coffee In the sock To be reused.&lt;/p&gt;&#xD;&#xA;&lt;/section&gt;&#xD;&#xA;&lt;section&gt;&#xD;&#xA;&lt;h1&gt;Filtration methods&lt;/h1&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;Drip brew coffee, also known As filtered Or American coffee, Is made By letting hot water drip onto coffee grounds held In a coffee filter surrounded By a filter holder Or brew basket. Drip brew makers can be simple filter holder types manually filled With hot water, Or they can use automated systems As found In the popular electric drip coffee-maker. Strength varies according To the ratio Of water To coffee And the fineness Of the grind, but Is typically weaker than espresso, though the final product contains more caffeine. By convention, regular coffee brewed By this method Is served By some restaurants In a brown Or black pot (Or a pot With a brown Or black handle), While decaffeinated coffee Is served In an orange pot (Or a pot With an orange handle).&#xD;&#xA;&#xD;&#xA;The common electric percolator, which was In almost universal use In the United States prior To the 1970s, And Is still popular In some households today, differs From the pressure percolator described above. It uses the pressure Of the boiling water To force it To a chamber above the grounds, but relies On gravity To pass the water down through the grounds, Where it Then repeats the process Until shut off By an internal timer. Some coffee aficionados hold the coffee produced In low esteem because Of this multiple-pass process. Others prefer gravity percolation And claim it delivers a richer cup Of coffee In comparison To drip brewing.&#xD;&#xA;&#xD;&#xA;Another variation Is cold brew coffee, sometimes known As &quot;cold press.&quot; Cold water Is poured over coffee grounds And allowed To steep For eight To twenty-four hours. The coffee Is Then filtered, usually through a very thick filter, removing all particles. This process produces a very strong concentrate which can be stored In a refrigerated, airtight container For up To eight weeks. The coffee can Then be prepared For drinking By adding hot water To the concentrate at a water-To-concentrate ratio Of approximately 3:1, but can be adjusted To the drinker's preference. The coffee prepared by this method is very low in acidity with a smooth taste, and is often preferred by those with sensitive stomachs. Others, however, feel this method strips coffee of its bold flavor and character. Thus, this method is not common, and there are few appliances designed for it.&#xD;&#xA;&#xD;&#xA;The amount Of coffee used affects both the strength And the flavor Of the brew In a typical drip-brewing filtration-based coffee maker. The softer flavors come Out Of the coffee first And the more bitter flavors only after some time, so a large brew will tend To be both stronger And more bitter. This can be modified By stopping the filtration after a planned time And Then adding hot water To the brew instead Of waiting For all the water To pass through the grounds.&lt;/p&gt;&#xD;&#xA;&lt;/section&gt;&#xD;&#xA;&lt;h1&gt;Pressure&lt;/h1&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;Espresso Is made By forcing hot water at 91–95 °C (195–204 °F) under a pressure Of between eight And eighteen bars (800–1800 kPa, 116–261 psi), through a lightly packed matrix, called a &quot;puck,&quot; Of finely ground coffee. The 30–60 cc (1–2 oz.) beverage Is served In demitasse cups; sugar Is often added. It Is consumed during the day at cafes And From street vendors, Or after an evening meal. It Is the basis For many coffee drinks. It Is one Of the most concentrated forms Of coffee regularly consumed, With a distinctive flavor provided By crema, a layer Of flavorful emulsified oils In the form Of a colloidal foam floating On the surface, which Is produced By the high pressure. Espresso Is more viscous than other forms Of brewed coffee.&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/body&gt;&lt;/html&gt;]" sap2010:WorkflowViewState.IdRef="CreateHtmlContent_1">
+      <umab:CreateHtmlContent.HtmlContentArg>
+        <umabh:HtmlContentArgument FilePath=".data/HtmlContent0.html">
+          <umabh:HtmlContentArgument.RuntimeImages>
+            <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+          </umabh:HtmlContentArgument.RuntimeImages>
+          <umabh:HtmlContentArgument.ValueMappings>
+            <scg:List x:TypeArguments="umabh:HtmlValueMappingBase" Capacity="0" />
+          </umabh:HtmlContentArgument.ValueMappings>
+        </umabh:HtmlContentArgument>
+      </umab:CreateHtmlContent.HtmlContentArg>
+    </umab:CreateHtmlContent>
+  </Sequence>
+</Activity>
